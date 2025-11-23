@@ -1,0 +1,36 @@
+nav{
+  z-index: 1;
+}
+
+nav ul {
+  padding: 0;
+  list-style-type: none;
+  margin: 0;
+  overflow: hidden;
+  top: 0;
+  background-color: lab(10.56% 4.41 -6.97);
+}
+
+ul li {
+  float: left;
+}
+
+ul li a {
+  display: block;
+  color: rgb(189, 181, 69);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: "Special Gothic Expanded One", sans-serif;
+  font-size: 20px;
+}
+
+ul li a:hover {
+  background-color: rgb(255, 255, 255);
+  color: black;
+}
+@media (max-width: 768px) {
+  ul li a {
+    font-size: 10px;
+  }
+}
