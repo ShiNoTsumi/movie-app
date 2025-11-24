@@ -56,7 +56,7 @@ const MovieCard = ({ movie }) => {
           <div className="year-badge">{movie.release_date}</div>
 
           <div className="genres">
-              <span class="genre-tag">{movieGenreResults.name}</span>
+              <span className="genre-tag">{movieGenreResults.name}</span>
           </div>
 
           <div className="ratings-row">
