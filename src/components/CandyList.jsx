@@ -35,7 +35,7 @@ const CandyList = () => {
      
       <div className="candy_grid">
         <h1>Concession</h1>
-        <ul class="cards">
+        <ul className="cards">
         {candyListing.map((candy) => (
           <CandyCard candy={candy} />
         ))}

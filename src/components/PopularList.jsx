@@ -27,7 +27,7 @@ const PopularList = () => {
   return (
     <div className="movie_grid">
       <h1>Popular</h1>
-      <ul class="cards">
+      <ul className="cards">
       {movies.map((movie) => (
         <MovieCard key={movie.id} movie={movie} />
       ))}

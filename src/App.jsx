@@ -13,15 +13,15 @@ function App() {
   return (
     <>
       <Navbar />
-      <header class="header">
-	      <div class="brand-box">
-		    <span class="brand"><b>Made By:</b> {name}</span>
+      <header className="header">
+	      <div className="brand-box">
+		    <span className="brand"><b>Made By:</b> {name}</span>
 	      </div>
 	
-	      <div class="text-box">
-		      <h1 class="heading-primary">
-			    <span class="heading-primary-main">Cinematic Insights</span>
-			    <span class="heading-primary-sub">Discover Movies</span>
+	      <div className="text-box">
+		      <h1 className="heading-primary">
+			    <span className="heading-primary-main">Cinematic Insights</span>
+			    <span className="heading-primary-sub">Discover Movies</span>
 		      </h1>
 	      </div>
       </header>
