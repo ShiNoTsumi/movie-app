@@ -24,6 +24,11 @@ const MovieCard = ({ movie, genres }) => {
     { id: 37, name: "Western" },
   ];
 
+  const movieGenreResults = genresList.find(
+    (genre) => genre.id === movie.genre_ids[0]
+  );
+  console.log(movieGenreResults.name);
+
   return (
     <li class="card">
       <div class="movie-card">
@@ -45,7 +50,7 @@ const MovieCard = ({ movie, genres }) => {
           <div class="year-badge">{movie.release_date}</div>
 
           <div class="genres">
-            <span class="genre-tag"></span>
+            <span class="genre-tag">{movieGenreResults.name}</span>
           </div>
 
           <div class="ratings-row">
